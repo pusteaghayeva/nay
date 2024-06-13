@@ -1,0 +1,22 @@
+@import url('./font.css');
+@import url('./variable.css');
+
+/* layout */
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
+
+/* pages */
+@import url('./pages/home.css');
+@import url('./pages/dinamic.css');
+@import url('./pages/projects.css');
+@import url('./pages/photos.css');
+@import url('./pages/videos.css');
+@import url('./pages/online_apply.css');
+@import url('./pages/request.css');
+@import url('./pages/statements.css');
+@import url('./pages/road.css');
+@import url('./pages/management.css');
+@import url('./pages/news.css');
+@import url('./pages/single_news.css');
+@import url('./pages/gallery.css');
+@import url('./pages/videogallery.css');

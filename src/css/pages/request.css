@@ -1,0 +1,25 @@
+.request {
+    margin: 40px 0;
+}
+
+.request-card {
+    border: none;
+}
+
+.request-text {
+    margin-bottom: 20px;
+}
+
+.send-second-button {
+    background-color: var(--bgColor);
+    color: var(--menuBg);
+    border: none;
+    transition: all .3s ease-in-out;
+    margin: 20px 0;
+}
+.send-second-button:hover{
+    background-color: rgba(4, 76, 184, 0.856);
+    border: none;
+    color: var(--menuBg);
+    transform: scale(1.1);
+}

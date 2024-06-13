@@ -1,0 +1,44 @@
+.struktur .row .col-md-12 {
+    margin-bottom: 50px;
+}
+
+.teref-col {
+    margin-top: 30px;
+}
+
+.struktur .row .col-3,
+.struktur .row .col-4 {
+    display: flex;
+}
+
+.r-cell-all {
+    display: block;
+    width: 100%;
+    height: 164px;
+}
+
+.r-cell-all a {
+    background: var(--newsTitleColor);
+    color: #fff;
+    padding: 40px 30px;
+    font-size: 1em;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.r-cell-all a:hover {
+    background-color: #dee2e6;
+    color: #000;
+    text-decoration: none;
+    outline: 0 none;
+    transition: all 0.3s ease-in-out;
+}

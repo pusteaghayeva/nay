@@ -1,0 +1,12 @@
+.title-news-apply {
+    text-align: left;
+    font-size: 24px;
+    color: var(--bgColor);
+    margin-left: 15px;
+}
+
+.btn-send {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}

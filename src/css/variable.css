@@ -1,0 +1,12 @@
+:root {
+    --menuColor: rgba(0, 0, 0, 1);
+    --menuBg: rgba(248, 248, 248, 1);
+    --titleColor: rgba(7, 37, 73, 1);
+    --aboutBg: rgba(255, 255, 255, 1);
+    --bgColor: rgba(4, 17, 85, 1);
+    --bgBlog: rgba(241, 241, 241, 1);
+    --dateColor: rgba(0, 0, 0, 0.69);
+    --newsTitleColor: rgba(30, 41, 102, 1);
+    --fontFamily: "Inter", sans-serif;
+    --fontRoboto: "Roboto", sans-serif;
+}

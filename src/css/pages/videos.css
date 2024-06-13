@@ -1,0 +1,6 @@
+.video_title {
+    font-size: 18px;
+}
+.video_title:hover{
+    transform: none;
+}

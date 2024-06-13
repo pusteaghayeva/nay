@@ -1,0 +1,151 @@
+.statements {
+    margin-bottom: 40px;
+}
+
+.white-box {
+    margin-bottom: 12px;
+    padding: 15px 25px;
+    transition: all .3s ease-in-out;
+}
+
+.statement-btn {
+    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: none;
+    width: 83px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.white-box:hover {
+    transform: scale(1.02);
+}
+
+.white-box-link {
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.white-box-link img {
+    width: 39px;
+    height: 39px;
+    object-fit: cover;
+    margin: 0 auto;
+
+}
+
+.white-box-link:hover {
+    text-decoration: none;
+}
+
+.white-box .law-caption {
+    font-size: 1.2rem;
+    color: #303030;
+    line-height: 24px;
+    display: block;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.decision-second {
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 480.98px) and (min-width: 320px) {
+    .white-box-link {
+        display: block;
+    }
+
+    .white-box-link img {
+        width: 30px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .white-box .law-caption {
+        display: flex;
+        margin: 0px 0 20px 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+}
+
+@media screen and (max-width: 576px) and (min-width: 480.98px) {
+    .white-box-link {
+        display: block;
+    }
+
+    .white-box-link img {
+        width: 30px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .white-box .law-caption {
+        display: flex;
+        margin: 0px 0 20px 0;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 576.98px) {
+    .white-box-link {
+        display: block;
+    }
+
+    .white-box-link img {
+        width: 40px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .white-box .law-caption {
+        display: flex;
+        margin: 0px 0 20px 0;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+}
+
+
+/* Safari 11+ */
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+        selector {
+            property: value;
+        }
+    }
+}
+
+/* Test website on real Safari 11+ */
+/* Safari 10.1 */
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
+        selector {
+            property: value;
+        }
+    }
+}
+
+/* Safari 6.1-10.0 (but not 10.1) */
+/* @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media {
+        selector {
+            property: value;
+        }
+    }
+} */
