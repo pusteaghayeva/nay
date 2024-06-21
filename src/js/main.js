@@ -1,3 +1,9 @@
+// aos
+AOS.init({
+    duration: 1200,
+})
+
+// aos end
 $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
@@ -173,9 +179,3 @@ $('.header-search-wrapper .search-main').click(function () {
 })(jQuery);
 
 
-// aos
-AOS.init({
-    duration: 1200,
-})
-
-// aos end
