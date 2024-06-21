@@ -55,7 +55,7 @@ header img {
 }
 
 .navbar .nav-item:first-child {
-    padding: 0;
+    padding-left: 0;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
@@ -200,7 +200,7 @@ ul {
 }
 
 .social-icons-a {
-    font-size: 23px;
+    font-size: 18px;
     color: var(--menuColor);
 }
 
@@ -226,7 +226,7 @@ ul {
     padding: 0 14px;
     cursor: pointer;
     color: var(--bgColor);
-    font-size: 22px;
+    font-size: 19px;
 }
 
 .header-search-wrapper .search-form-main {

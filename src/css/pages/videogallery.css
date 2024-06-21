@@ -1,0 +1,41 @@
+.video-gallery {
+    padding-bottom: 60px;
+}
+/* 
+.video-title {
+    margin: 40px 0 40px 0;
+    text-align: center;
+} */
+
+
+.video-container {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+.responsive-video {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.responsive-video iframe,
+.responsive-video video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #000;
+    transition: transform 1s;
+
+}
+
+.responsive-video iframe:hover,
+.responsive-video video {
+    transform: scale(1.02);
+    transition: all ease-in-out .6s;
+}
