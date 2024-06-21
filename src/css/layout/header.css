@@ -166,7 +166,8 @@ header img {
 }
 
 .navbar-toggler-icon {
-    background-image: url('/src/img/navbar.jpg');
+    /* background-image: url('/src/img/navbar.jpg'); */
+    background-image: url('./src/img/navbar.jpg');
     width: 1.1em;
     height: 1.1em;
 }
