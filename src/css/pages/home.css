@@ -291,6 +291,17 @@ p {
 .first-section .owl-nav .owl-prev span {
     font-size: 50px;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: xxx-large;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .first-section .owl-nav .owl-prev:focus {
@@ -325,6 +336,12 @@ p {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    font-size: xxx-large;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .first-section .owl-nav .owl-next:focus {
